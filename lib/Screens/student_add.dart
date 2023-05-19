@@ -31,7 +31,7 @@ class _StudentAddState extends State<StudentAdd> {
                 buildFirstNameField(),
                 buildLastNameField(),
                 buildGradeField(),
-               // buildSumbitButton()
+                buildSumbitButton()
               ],
             ),
           ),
@@ -71,7 +71,7 @@ buildGradeField() {
   );
 }
 
-/*Widget buildSumbitButton() {
+Widget buildSumbitButton() {
   return ElevatedButton(
     child: Text("Kaydet"),
     onPressed: () {
@@ -79,4 +79,4 @@ buildGradeField() {
      students.add(student);
     },
   );
-}*/
+}
